@@ -100,7 +100,7 @@ export function stylistic(options: StylisticConfig = {}): FlatESLintConfigItem[]
         'style/quote-props': ['error', 'consistent-as-needed'],
         'style/quotes': ['error', quotes, { allowTemplateLiterals: true, avoidEscape: false }],
         'style/rest-spread-spacing': ['error', 'never'],
-        'style/semi': ['error', 'never'],
+        'style/semi': ['error', 'always'],
         'style/semi-spacing': ['error', { after: true, before: false }],
         'style/space-before-blocks': ['error', 'always'],
         'style/space-before-function-paren': ['error', { anonymous: 'always', asyncArrow: 'always', named: 'never' }],
